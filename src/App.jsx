@@ -50,7 +50,7 @@ function App() {
 
 
     {/*Hero section-1  start*/}
-    <div className='bg-[#030711] min-h-screen'>
+    <div className='bg-[#030711] h-210'>
       <div className='max-w-5xl mx-auto min-h-screen flex flex-col justify-center items-center text-center mt-[-35px]'>
         
         <div className='inline-flex items-center gap-3 px-12 py-3 rounded-full bg-[#0D1526]'>
@@ -73,7 +73,24 @@ function App() {
     {/*Hero section-1  end*/}
 
 
-    
+    {/*Hero section-2 start*/}
+    <div className='bg-[#051014] h-220'>
+      <div className='max-w-5xl mx-auto min-h-screen flex flex-col justify-center items-center text-center '>
+
+        <div className='inline-flex items-center gap-3 px-4 py-0 rounded-full bg-[#051014] mt-[-560px] '>
+          <span className='text-[#22C55E]'>Imkoniyatlar</span>
+        </div><br />
+
+        <div>
+          <h2 className='text-white text-6xl font-bold leading-10'>Nima uchun <span className='text-[#22C55E]'>MockSpace</span>?</h2><br />
+
+          <p className='text-[#7F8EA3] text-xl leading-8'>Haqiqiy imtihon muhitida mashq qiling va AI yordamida o'z darajangizni bilib <br />oling</p>
+        </div>
+
+
+      </div>
+    </div>
+    {/*Hero section-2 end*/}
     </>
   )
 }
