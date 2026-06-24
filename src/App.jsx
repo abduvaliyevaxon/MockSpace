@@ -74,10 +74,10 @@ function App() {
 
 
     {/*Hero section-2 start*/}
-    <div className='bg-[#051014] h-280'>
-      <div className='max-w-7xl mx-auto min-h-screen flex flex-col justify-center items-center text-center  '>
+    <div className='bg-[#051014] p-24'>
+      <div className='max-w-7xl mx-auto px-6'>
         {/*Nima uchun MockSpace? ---qismi*/}
-        <div className="text-center"><span className="inline-block px-4 py-2 text-[#22C55E] border border-[#0A2C20] rounded-full mt-[100px]">
+        <div className="text-center"><span className="inline-block px-4 py-2 text-[#22C55E] border border-[#0A2C20] rounded-full mt-16">
             Imkoniyatlar
           </span>
 
@@ -183,6 +183,71 @@ function App() {
       </div>
     </div>
     {/*Hero section-2 end*/}
+
+
+    {/*Hero section-3 start*/}
+    <div className='bg-[#030711] p-24'>
+      <div className='max-w-7xl mx-auto px-6'>
+
+        <div className='text-center'>
+          <span className='inline-block px-4 py-0 rounded-full border border-[#2f1548] text-[#994BE7] font-semibold '>Fanlar</span>
+          <h2 className="mt-6 text-5xl font-bold text-white">Qaysi fanlardan <span className='text-[#994BE7]'>test</span>?</h2>
+          <p className='mt-5 text-xl text-[#758397]'>Ingliz tili imtihonlaridan DTM fanlarigacha - barchasi bir joyda</p>
+        </div>
+
+        {/*English exams*/}
+        <div className='mt-20'>
+          
+          <div className='flex items-center gap-4 mb-8'>
+            <div className="w-12 h-12 rounded-xl bg-green-500 flex items-center justify-center text-white text-xl">🌐</div>
+
+            <h3 className='text-3xl font-bold text-white'>Ingliz Tili Imtihonlari</h3>
+          </div>
+
+          <div className='grid md:grid-cols-2  gap-8'>
+            {/*IELTS start*/}
+            <div className='bg-[#071A18] border border-[#065924] rounded-3xl p-7 hover:border-[#22C55E]'>
+              <div className='flex gap-5'>
+
+                <div className='w-20 h-15 rounded-2xl bg-[#22C55E] flex items-center justify-center text-white text-2xl font-bold'>IE</div>
+
+                <div>
+                  <h4 className='text-3xl font-bold text-white mb-3'>IELTS Mock Test</h4>
+
+                  <p className='text-14 text-[#69788B]'>
+                    To'liq IELTS imtihoni: Reading, Writing,
+                    Listening, Speaking - barchasi AI bilan tekshiriladi
+                  </p>
+
+                  <div className="flex flex-wrap gap-3 mt-5">
+                    <span className="px-3 py-1 rounded-full bg-[#0B3424] hover:bg-[#0C1526] text-[#22C55E]">Reading</span>
+
+                    <span className="px-3 py-1 rounded-full bg-[#0B3424] hover:bg-[#0C1526] text-[#22C55E]">Writing</span>
+
+                    <span className="px-3 py-1 rounded-full bg-[#0B3424] hover:bg-[#0C1526] text-[#22C55E]">Listening</span>
+
+                    <span className="px-3 py-1 rounded-full bg-[#0B3424] hover:bg-[#0C1526] text-[#22C55E]">Speaking</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {/*IELTS end*/}
+
+
+            {/*Cefr start*/}
+
+            {/*Cefr end*/}
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+    {/*Hero section-3 end*/}
+
     </>
   )
 }
