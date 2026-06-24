@@ -195,8 +195,8 @@ function App() {
           <p className='mt-5 text-xl text-[#758397]'>Ingliz tili imtihonlaridan DTM fanlarigacha - barchasi bir joyda</p>
         </div>
 
-        {/*English exams*/}
-        <div className='mt-20'>
+       {/*English exams start*/}
+       <div className='mt-20'>
           
           <div className='flex items-center gap-4 mb-8'>
             <div className="w-12 h-12 rounded-xl bg-green-500 flex items-center justify-center text-white text-xl">🌐</div>
@@ -212,7 +212,7 @@ function App() {
                 <div className='w-20 h-15 rounded-2xl bg-[#22C55E] flex items-center justify-center text-white text-2xl font-bold'>IE</div>
 
                 <div>
-                  <h4 className='text-3xl font-bold text-white mb-3'>IELTS Mock Test</h4>
+                  <h4 className='text-2xl font-bold text-white mb-3'>IELTS Mock Test</h4>
 
                   <p className='text-14 text-[#69788B]'>
                     To'liq IELTS imtihoni: Reading, Writing,
@@ -236,13 +236,123 @@ function App() {
 
 
             {/*Cefr start*/}
+            <div className='bg-[#0E0B1D] border border-[#3B2463] rounded-3xl p-7 hover:border-[#994BE7] '>
+              <div className='flex gap-5'>
+                <div className='w-20 h-15 rounded-2xl bg-[#994BE7] flex items-center justify-center text-white text-2xl font-bold'>CE</div>
 
+                <div>
+                  <h4 className='text-2xl font-bold text-white mb-3'>CEFR Test</h4>
+                  
+                  <p className='text-[#69788B]'>
+                    A1 dan C2 gacha barcha darajalar uchun CEFR
+                    imtihoniga tayyorgarlik testlari
+                  </p>
+
+                  <div className='flex flex-wrap gap-3 mt-5'>
+                    <span className='px-3 py-1 rounded-full bg-[#24163D] text-[#994BE7]'>A1-A2</span>
+
+                    <span className='px-3 py-1 rounded-full bg-[#24163D] text-[#994BE7]'>B1-B2</span>
+
+                    <span className='px-3 py-1 rounded-full bg-[#24163D] text-[#994BE7]'>C1-C2</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
             {/*Cefr end*/}
 
           </div>
+       </div>
+       {/*English exams end*/}
 
 
-        </div>
+
+       {/*DTM subjects start*/}
+       <div className='mt-24'>
+         
+         <div className='flex items-center gap-4 mb-8'>
+          <div className='w-12 h-12 rounded-xl bg-[#994BE7] flex items-center justify-center text-white text-xl'>📄</div>
+
+          <h3 className='text-3xl font-bold text-white'>DTM Fanlar</h3>
+         </div>
+
+         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
+          {/*Matematika*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-blue-500 flex items-center justify-center text-white text-2xl mb-5'>🧮</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Matematika</h4>
+
+            <p className='text-[#758397]'>DTM matematika testlari</p>
+          </div>
+
+          {/**Tarix*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-yellow-500 flex items-center justify-center text-white text-2xl mb-5'>🕒</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Tarix</h4>
+
+            <p className='text-[#758397]'>O'zbekiston va jahon tarixi</p>
+          </div>
+
+          {/*Ona tili*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-green-500 flex items-center justify-center text-white text-2xl mb-5'>📄</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Ona Tili</h4>
+
+            <p className='text-[#758397]'>O'zbek tili va adabiyot</p>
+          </div>
+
+          {/*Fizika*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-purple-500 flex items-center justify-center text-white text-2xl mb-5'>⚡</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Fizika</h4>
+
+            <p className='text-[#758397]'>DTM fizika testlari</p>
+          </div>
+
+          {/*Kimyo*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-red-500 flex items-center justify-center text-white text-2xl mb-5'>🧪</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Kimyo</h4>
+
+            <p className='text-[#758397]'>DTM kimyo testlari</p>
+          </div>
+
+          {/*Biologiya*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-green-500 flex items-center justify-center text-white text-2xl mb-5'>❤️</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Biologiya</h4>
+
+            <p className='text-[#758397]'>DTM biologiya testlari</p>
+          </div>
+
+          {/*Geografiya*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-cyan-500 flex items-center justify-center text-white text-2xl mb-5'>🌍</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Geografiya</h4>
+
+            <p className='text-[#758397]'>DTM geografiya testlari</p>
+          </div>
+
+          {/*Ingliz tili*/}
+          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+            <div className='w-14 h-14 rounded-2xl bg-indigo-500 flex items-center justify-center text-white text-2xl mb-5'>🌐</div>
+
+            <h4 className='text-2xl font-bold text-white mb-2'>Ingliz Tili</h4>
+
+            <p className='text-[#758397]'>DTM ingliz tili testlari</p>
+          </div>
+
+         </div>
+
+       </div>
+       {/*DTM subjects end*/}
 
       </div>
     </div>
