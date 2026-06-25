@@ -369,6 +369,64 @@ function App() {
         <p className='mt-5 text-xl text-[#758397]'>Bepul boshlang yoki premium imkoniyatlardan foydalaning</p>
         </div>
 
+        {/*3xil tarif*/}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/*Bepul-card */}
+          <div className="bg-[#030711] border border-[#1f2937] rounded-xl p-8 text-white w-85 ">
+            <h3 className='text-xl font-bold'>Bepul</h3>
+            <p className='text-[#94a3b8] mt-1'>Yangi boshlovchlar uchun</p>
+
+            <h1 className='text-4xl font-bold mt-6'>0 <span className='text-[#7A889E] text-2xl font-normal'>so`m</span></h1>
+
+            <ul className='mt-6 text-sm leading-10'>
+              <li className="flex gap-2 text-white">✔ Cheklangan testlar</li>
+              <li className="flex gap-2 text-white">✔ AI baholash</li>
+              <li className="flex gap-2 text-[#64748b]">✖ Natijalar 1 kundan keyin</li>
+            </ul>
+
+            <button className="mt-45 w-full py-3 rounded-lg border border-[#334155] hover:bg-[#994BE7]">Bepul boshlash</button>
+          </div>
+
+          {/*Pro card*/}
+          <div className="bg-[#030711] border border-[#1f2937] rounded-xl p-8 text-white w-85 ">
+            <h3 className='text-xl font-bold'>Pro</h3>
+            <p className='text-[#94a3b8] mt-1'>Full Mock imtihon</p>
+
+            <h1 className='text-4xl font-bold mt-6'>50,000 <span className='text-[#7A889E] text-2xl font-normal'>so'm/full mock</span></h1>
+
+            <ul className='mt-6 text-sm leading-10'>
+              <li className="flex gap-2 text-white">✔ 1 ta Full Mock imtihon</li>
+              <li className="flex gap-2 text-white">✔ Barcha bo'limlar (R, L, W, S)</li>
+              <li className="flex gap-2 text-[#64748b]">✔ AI baholash</li>
+              <li className="flex gap-2 text-[#64748b]">✔ Tezkor natijalar</li>
+            </ul>
+
+            <button className="mt-25 w-full py-3 rounded-lg border border-[#334155] hover:bg-[#994BE7] ">Hozir boshlash</button>
+          </div>
+          
+          {/**Premium card*/}
+          <div className="relative bg-[#0B141F] border-2 border-[#22c55e] rounded-2xl p-8 text-white w-85">
+            <span className="absolute top-[-16px] left-[40%]  bg-[#22c55e] text-black text-xs font-semibold px-3 py-1 rounded-full">
+              Foydali
+            </span>
+
+            <h3 className='text-xl font-bold'>Premium</h3>
+            <p className='text-[#94a3b8] mt-1'>Oyiga 15 ta Full Mock</p>
+
+            <h1 className='text-4xl font-bold mt-6 text-[#22C55E]'>250,000<span className='text-[#7A889E] text-2xl font-normal'>so'm/oy</span></h1><br />
+
+            <ul className='mt-6 text-sm leading-10'>
+              <li className="flex gap-2 text-white">✔ Oyiga 15 ta Full Mock imtihon</li>
+              <li className="flex gap-2 text-white">✔ Full Mock kiritilgan</li>
+              <li className="flex gap-2 text-[#22C55E]">✔ Tezkor natijalar</li>
+              <li className="flex gap-2 text-[#64748b]">✔ Ustuvor qo'llab-quvvatlash</li>
+            </ul>
+
+            <button className="mt-28 w-full py-3 rounded-lg border bg-[#22C55E] text-black font-semibold">Pro ga o'tish</button>
+
+          </div>
+        </div>
+
       </div>
     </div>
     {/*Hero section-4 end*/}
