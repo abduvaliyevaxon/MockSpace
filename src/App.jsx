@@ -431,6 +431,92 @@ function App() {
     </div>
     {/*Hero section-4 end*/}
 
+
+    {/*Hero section-5 start*/}
+    <div className='bg-[#030711] p-20'>
+      <div className='max-w-7xl mx-auto px-6 text-center'>
+
+        {/*3 oddiy qadam*/}
+        <span className="inline-block px-4 py-1 rounded-full border border-[#382150] text-[#994BE7] text-sm">
+      Qanday ishlaydi?
+        </span>
+
+        <h2 className="mt-6 text-5xl font-bold text-white">
+          3 oddiy <span className='text-[#994BE7]'>qadam</span>
+        </h2>
+
+        <div className="mt-20 flex flex-col md:flex-row items-center justify-between gap-10">
+
+      <div className="flex-1 text-center">
+        <div className="w-18 h-18 mx-auto bg-[#22C55E] rounded-3xl flex items-center justify-center text-white text-2xl font-bold">1</div>
+
+        <h3 className="mt-6 text-white text-2xl font-semibold">Ro'yxatdan o'ting</h3>
+
+        <p className="mt-3 text-[#758397]">Bepul hisob yarating va platformaga kiring</p>
+      </div>
+
+      <div className="w-60 h-[2px] bg-[#0C4028]"></div>
+
+      <div className="flex-1 text-center">
+        <div className="w-18 h-18 mx-auto bg-[#AD46FF] rounded-3xl flex items-center justify-center text-white text-2xl font-bold">2</div>
+
+        <h3 className="mt-6 text-white text-2xl font-semibold">Test tanlang</h3>
+
+        <p className="mt-3 text-[#758397]">IELTS, CEFR yoki DTM fanlaridan birini tanlang</p>
+      </div>
+
+
+      <div className="w-60 h-[2px] bg-[#382150]"></div>
+
+      <div className="flex-1 text-center">
+        <div className="w-18 h-18 mx-auto bg-green-500 rounded-3xl flex items-center justify-center text-white text-2xl font-bold">3</div>
+
+        <h3 className="mt-6 text-white text-2xl font-semibold">Natijani oling</h3>
+
+        <p className="mt-3 text-[#758397]">AI natijalaringizni tahlil qiladi va ko'rsatadi</p>
+      </div>
+        </div>
+
+        {/*Jamo*/}
+        <div className='mt-40'>
+          <span className="inline-block px-4 py-1 rounded-full border border-[#113f22] text-[#22C55E] text-sm">Jamoa</span>
+
+          <h2 className="mt-6 text-5xl font-bold text-white">Bizning <span className="text-[#22C55E]">jamoa</span></h2>
+
+          <p className="mt-4 text-[#758397] text-xl">MockSpace loyihasini yaratgan va rivojlantiruvchi jamoa a'zolari</p>
+
+          <div  className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+            {/**teacher 1*/}
+            <div className="text-center">
+              <img src="https://www.mockspace.uz/Mavlon.png" alt="teacher_picture1"  className="w-40 h-40 mx-auto rounded-full "/>
+              <h3 className="mt-6 text-white text-2xl font-semibold">Mavlon Yusuf</h3>
+              <p className="text-[#22C55E] mt-2">Software Engineer</p>
+              <p className='text-[#758397] mt-2'>4+ yillik tajribaga ega dasturchi. Co-founder GeekSoft.</p>
+            </div>
+
+            {/*teacher 2*/}
+            <div className='text-center'>
+              <img src="https://www.mockspace.uz/Husniddin.png" alt="teacher_picture2" className="w-40 h-40 mx-auto rounded-full"/>
+              <h3 className="mt-6 text-white text-2xl font-semibold">Husniddin Mehmonov</h3>
+              <p className="text-[#8745FF] mt-2">Software Engineer</p>
+              <p className='text-[#758397] mt-2'>4+ yillik tajribaga ega dasturchi</p>
+            </div>
+
+            {/**teacher 3 */}
+            <div className='text-center'>
+              <img src="https://www.mockspace.uz/Javohir.png" alt="teacher_picture3" className="w-40 h-40 mx-auto rounded-full"/>
+              <h3 className="mt-6 text-white text-2xl font-semibold">Javohir Yoqubjonov</h3>
+              <p className="text-[#22C55E] mt-2">IELTS Expert</p>
+              <p className='text-[#758397] mt-2'>5+ yillik tajriba, IELTS 8.5, 500+ o'quvchi tayyorlagan.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {/*Hero section-5 end*/}
+
     </>
   )
 }
