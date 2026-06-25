@@ -95,7 +95,7 @@ function App() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20'>
 
           {/*Card-1*/}
-          <div className='bg-[#0B1220] border border-[#1E293B] rounded-3xl p-8'>
+          <div className='bg-[#0B1220] border border-[#1E293B] hover:border-[#22C55E] rounded-3xl p-8'>
             <div className="w-20 h-20 bg-[#22C55E] rounded-3xl flex items-center justify-center text-3xl mb-6">
               💡
             </div>
@@ -109,7 +109,7 @@ function App() {
           </div>
 
           {/*Card-2*/}
-          <div className='bg-[#0B1220] border border-[#1E293B] rounded-3xl p-8'>
+          <div className='bg-[#0B1220] border border-[#1E293B] hover:border-[#22C55E] rounded-3xl p-8'>
             <div className="w-20 h-20 bg-[#994BE7] rounded-3xl flex items-center justify-center text-3xl mb-6">
               ⏰
             </div>
@@ -123,7 +123,7 @@ function App() {
           </div>
 
           {/*Card-3*/}
-          <div className='bg-[#0B1220] border border-[#1E293B] rounded-3xl p-8'>
+          <div className='bg-[#0B1220] border border-[#1E293B] hover:border-[#22C55E] rounded-3xl p-8'>
             <div className="w-20 h-20 bg-[#22C55E] rounded-3xl flex items-center justify-center text-3xl mb-6">
               🛡️
             </div>
@@ -137,7 +137,7 @@ function App() {
           </div>
 
           {/*Card-4*/}
-          <div className='bg-[#0B1220] border border-[#1E293B] rounded-3xl p-8'>
+          <div className='bg-[#0B1220] border border-[#1E293B] hover:border-[#22C55E] rounded-3xl p-8'>
             <div className="w-20 h-20 bg-[#994BE7] rounded-3xl flex items-center justify-center text-3xl mb-6">
               🎤
             </div>
@@ -151,7 +151,7 @@ function App() {
           </div>
 
           {/*Card-5*/}
-          <div className='bg-[#0B1220] border border-[#1E293B] rounded-3xl p-8'>
+          <div className='bg-[#0B1220] border border-[#1E293B] hover:border-[#22C55E] rounded-3xl p-8'>
             <div className="w-20 h-20 bg-[#22C55E] rounded-3xl flex items-center justify-center text-3xl mb-6">
               ✏️
             </div>
@@ -165,7 +165,7 @@ function App() {
           </div>
 
           {/*Card-6*/}
-          <div className='bg-[#0B1220] border border-[#1E293B] rounded-3xl p-8'>
+          <div className='bg-[#0B1220] border border-[#1E293B] hover:border-[#22C55E] rounded-3xl p-8'>
             <div className="w-20 h-20 bg-[#994BE7] rounded-3xl flex items-center justify-center text-3xl mb-6">
               📊
             </div>
@@ -249,11 +249,11 @@ function App() {
                   </p>
 
                   <div className='flex flex-wrap gap-3 mt-5'>
-                    <span className='px-3 py-1 rounded-full bg-[#24163D] text-[#994BE7]'>A1-A2</span>
+                    <span className='px-3 py-1 rounded-full bg-[#24163D] hover:bg-[#0C1526] text-[#994BE7]'>A1-A2</span>
 
-                    <span className='px-3 py-1 rounded-full bg-[#24163D] text-[#994BE7]'>B1-B2</span>
+                    <span className='px-3 py-1 rounded-full bg-[#24163D] hover:bg-[#0C1526] text-[#994BE7]'>B1-B2</span>
 
-                    <span className='px-3 py-1 rounded-full bg-[#24163D] text-[#994BE7]'>C1-C2</span>
+                    <span className='px-3 py-1 rounded-full bg-[#24163D] hover:bg-[#0C1526] text-[#994BE7]'>C1-C2</span>
                   </div>
                 </div>
 
@@ -270,15 +270,15 @@ function App() {
        {/*DTM subjects start*/}
        <div className='mt-24'>
          
-         <div className='flex items-center gap-4 mb-8'>
+         <div className='flex items-center gap-4 mb-6'>
           <div className='w-12 h-12 rounded-xl bg-[#994BE7] flex items-center justify-center text-white text-xl'>📄</div>
 
-          <h3 className='text-3xl font-bold text-white'>DTM Fanlar</h3>
+          <h3 className='text-2xl font-bold text-white'>DTM Fanlar</h3>
          </div>
 
          <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
           {/*Matematika*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-blue-500 flex items-center justify-center text-white text-2xl mb-5'>🧮</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Matematika</h4>
@@ -287,7 +287,7 @@ function App() {
           </div>
 
           {/**Tarix*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-yellow-500 flex items-center justify-center text-white text-2xl mb-5'>🕒</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Tarix</h4>
@@ -296,7 +296,7 @@ function App() {
           </div>
 
           {/*Ona tili*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-green-500 flex items-center justify-center text-white text-2xl mb-5'>📄</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Ona Tili</h4>
@@ -305,7 +305,7 @@ function App() {
           </div>
 
           {/*Fizika*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-purple-500 flex items-center justify-center text-white text-2xl mb-5'>⚡</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Fizika</h4>
@@ -314,7 +314,7 @@ function App() {
           </div>
 
           {/*Kimyo*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-red-500 flex items-center justify-center text-white text-2xl mb-5'>🧪</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Kimyo</h4>
@@ -323,7 +323,7 @@ function App() {
           </div>
 
           {/*Biologiya*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-green-500 flex items-center justify-center text-white text-2xl mb-5'>❤️</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Biologiya</h4>
@@ -332,7 +332,7 @@ function App() {
           </div>
 
           {/*Geografiya*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-cyan-500 flex items-center justify-center text-white text-2xl mb-5'>🌍</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Geografiya</h4>
@@ -341,7 +341,7 @@ function App() {
           </div>
 
           {/*Ingliz tili*/}
-          <div className='bg-[#070D18] border border-[#1A2332] rounded-2xl p-6'>
+          <div className='bg-[#070D18] border border-[#1A2332] hover:border-[#22C55E] rounded-2xl p-6'>
             <div className='w-14 h-14 rounded-2xl bg-indigo-500 flex items-center justify-center text-white text-2xl mb-5'>🌐</div>
 
             <h4 className='text-2xl font-bold text-white mb-2'>Ingliz Tili</h4>
@@ -357,6 +357,21 @@ function App() {
       </div>
     </div>
     {/*Hero section-3 end*/}
+
+
+    {/*Hero section-4 start*/}
+    <div className='bg-[#0B0B1C] p-20'>
+      <div className='max-w-7xl mx-auto px-6'>
+        {/*Tariflar*/}
+        <div className='text-center'>
+        <span className='inline-block px-3 py-0 rounded-full border border-[#113f22] text-[#22C55E] font-semibold '>Tariflar</span>
+        <h2 className="mt-5 text-6xl font-bold text-white">O'zingizga mos <span className='text-[#22C55E]'>tarifni</span></h2>
+        <p className='mt-5 text-xl text-[#758397]'>Bepul boshlang yoki premium imkoniyatlardan foydalaning</p>
+        </div>
+
+      </div>
+    </div>
+    {/*Hero section-4 end*/}
 
     </>
   )
