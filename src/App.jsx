@@ -520,7 +520,7 @@ function App() {
 
     {/*Hero section-6 start*/}
     <div className='bg-[#051115] py-20'>
-      <div className='max-w-5xl mx-auto px-6 text-center'>
+      <div className='max-w-3xl mx-auto px-6 text-center'>
 
         <div className="text-center">
           <span className="inline-block px-4 py-1 rounded-full border border-[#113f22] text-[#22C55E] text-sm font-semibold">FAQ</span>
@@ -559,6 +559,82 @@ function App() {
       </div>
     </div>
     {/*Hero section-6 end*/}
+
+
+    {/*Hero section-7  start*/}
+    <div className="bg-[#030711] py-20">
+      <div className="max-w-4xl mx-auto px-6">
+        {/*ro`yxatdan o'tish*/}
+        <div className="border border-[#18452E] rounded-2xl bg-[#111525] py-10 text-center">
+          <h2 className="text-5xl font-bold text-white">Hoziroq <span className="text-[#22C55E]">boshlang!</span></h2>
+          <p className="mt-5 text-[#758397] text-xl">MockSpace orqali imtihonlarga tayyorlaning. Siz ham qo'shiling!</p>
+
+          <button className="mt-10 bg-[#22C55E] text-black px-10 py-4 rounded-full text-xl font-semibold">Bepul ro'yxatdan o'tish →</button>
+        </div>
+
+      </div>
+    </div>
+    {/*Hero section-7  end*/}
+
+
+    <div className=' border-t border-[#1d293d] '></div>
+
+
+    {/*Footer start */}
+    <div className='bg-[#030711] py-18'>
+      <div className='max-w-7xl mx-auto px-6 '>
+        <div className="grid md:grid-cols-3 gap-20">
+            {/*chap tomon*/}
+            <div className='text-left'>
+
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 rounded-xl bg-[#22C55E] flex items-center justify-center text-black font-bold text-2xl">M</div>
+                <h2 className="text-white text-3xl font-bold leading-none">MockSpace</h2>
+              </div>
+
+              <p className="mt-8 text-[#758397] text-xl leading-8 ">
+                O'zbekistonda eng yaxshi mock test platformasi.
+                IELTS, CEFR va DTM fanlaridan AI bilan tekshiriladigan testlar.
+              </p>
+            </div>
+
+            {/*o`rtasi*/}
+            <div className="flex flex-col items-center">
+              <h3 className="text-white text-2xl font-semibold leading-none">Sahifalar</h3>
+
+              <ul className="mt-8 leading-9 text-[#758397] text-xl">
+                <li>Imkoniyatlar</li>
+                <li>Fanlar</li>
+                <li>Tariflar</li>
+                <li>Jamoa</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+
+            {/*O`ng tomon*/}
+            <div>
+
+              <h3 className="text-white text-2xl font-semibold">Aloqa</h3>
+
+              <ul className="mt-8 space-y-5 text-xl leading-5">
+                <li className="text-[#758397]">@mehmonov_husniddin</li>
+                <li className="text-[#758397]">+998 94 444 43 52</li>
+                <li className="text-[#22C55E]">app.mockspace.uz</li>
+              </ul>
+            </div>
+        </div>
+
+        {/*Pastki qismi*/}
+        <div className="mt-16 pt-8 border-t border-[#1d293d] flex justify-between items-center">
+          <p className="text-[#758397] text-lg">© 2025 MockSpace. Barcha huquqlar himoyalangan.</p>
+          <div className="flex gap-10 text-[#758397] text-lg">
+            <p>Maxfiylik siyosati</p>
+            <p>Foydalanish shartlari</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/*Footer end */}
 
     </>
   )
