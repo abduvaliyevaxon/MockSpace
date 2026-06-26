@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     {/*Header start*/}
-    <header className="w-full bg-[#020617] ">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#020617]">
       <div className="max-w-7xl mx-auto ">
         <div className="flex items-center  justify-between h-20">
 
@@ -20,15 +20,15 @@ function App() {
 
           {/*Navbar*/}
           <nav className="flex items-center gap-8">
-            <a className="text-gray-500 hover:text-white text-xl" href="#">Imkoniyatlar</a>
+            <a className="text-gray-500 hover:text-white text-xl" href="#features">Imkoniyatlar</a>
 
-            <a className="text-gray-500 hover:text-white text-xl" href="#">Fanlar</a>
+            <a className="text-gray-500 hover:text-white text-xl" href="#subjects">Fanlar</a>
 
-            <a className="text-gray-500 hover:text-white text-xl" href="#">Tariflar</a>
+            <a className="text-gray-500 hover:text-white text-xl" href="#pricing">Tariflar</a>
 
-            <a className="text-gray-500 hover:text-white text-xl" href="#">Jamoa</a>
+            <a className="text-gray-500 hover:text-white text-xl" href="#team">Jamoa</a>
 
-            <a className="text-gray-500 hover:text-white text-xl" href="#">FAQ</a>
+            <a className="text-gray-500 hover:text-white text-xl" href="#faq">FAQ</a>
           </nav>
 
 
@@ -50,8 +50,8 @@ function App() {
 
 
     {/*Hero section-1  start*/}
-    <div className='bg-[#030711] h-210'>
-      <div className='max-w-7xl mx-auto min-h-screen flex flex-col justify-center items-center text-center mt-[-35px]'>
+    <div  className='bg-[#030711] pt-20 h-210 ' >
+      <div className='max-w-7xl mx-auto min-h-screen flex flex-col justify-center items-center text-center mt-[-35px]' >
         
         <div className='inline-flex items-center gap-3 px-12 py-3 rounded-full bg-[#0D1526]'>
           <div className='w-3 h-3 rounded-full bg-[#22C55E]'></div>
@@ -74,7 +74,7 @@ function App() {
 
 
     {/*Hero section-2 start*/}
-    <div className='bg-[#051014] p-24'>
+    <div id="features" className='bg-[#051014] p-24'>
       <div className='max-w-7xl mx-auto px-6'>
         {/*Nima uchun MockSpace? ---qismi*/}
         <div className="text-center"><span className="inline-block px-4 py-2 text-[#22C55E] border border-[#0A2C20] rounded-full mt-16">
@@ -186,7 +186,7 @@ function App() {
 
 
     {/*Hero section-3 start*/}
-    <div className='bg-[#030711] p-24'>
+    <div id="subjects" className='bg-[#030711] p-24'>
       <div className='max-w-7xl mx-auto px-6'>
 
         <div className='text-center'>
@@ -360,7 +360,7 @@ function App() {
 
 
     {/*Hero section-4 start*/}
-    <div className='bg-[#0B0B1C] p-20'>
+    <div id="pricing" className='bg-[#0B0B1C] p-20'>
       <div className='max-w-7xl mx-auto px-6'>
         {/*Tariflar*/}
         <div className='text-center'>
@@ -478,7 +478,7 @@ function App() {
         </div>
 
         {/*Jamo*/}
-        <div className='mt-40'>
+        <div id="team" className='mt-40'>
           <span className="inline-block px-4 py-1 rounded-full border border-[#113f22] text-[#22C55E] text-sm">Jamoa</span>
 
           <h2 className="mt-6 text-5xl font-bold text-white">Bizning <span className="text-[#22C55E]">jamoa</span></h2>
@@ -519,7 +519,7 @@ function App() {
 
 
     {/*Hero section-6 start*/}
-    <div className='bg-[#051115] py-20'>
+    <div id="faq" className='bg-[#051115] py-20'>
       <div className='max-w-3xl mx-auto px-6 text-center'>
 
         <div className="text-center">
