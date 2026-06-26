@@ -517,6 +517,49 @@ function App() {
     </div>
     {/*Hero section-5 end*/}
 
+
+    {/*Hero section-6 start*/}
+    <div className='bg-[#051115] py-20'>
+      <div className='max-w-5xl mx-auto px-6 text-center'>
+
+        <div className="text-center">
+          <span className="inline-block px-4 py-1 rounded-full border border-[#113f22] text-[#22C55E] text-sm font-semibold">FAQ</span>
+          <h2 className="mt-6 text-5xl  font-bold text-white">Ko'p beriladigan <span className="text-[#22C55E]">savollar</span></h2>
+        </div>
+
+        {/*Savollar*/}
+        <div className='mt-16'>
+
+          <div className="bg-[#060B18] border border-[#1d293d] rounded-2xl flex justify-between items-center px-6 py-5 mb-5">
+            <h2 className="text-white text-2xl font-semibold">MockSpace qanday ishlaydi?</h2>
+            <span className="text-white text-2xl">⌄</span>
+          </div>
+
+          <div className="bg-[#060B18] border border-[#1d293d] rounded-2xl flex justify-between items-center px-6 py-5 mb-5">
+            <h2 className="text-white text-2xl font-semibold">Qaysi imtihonlardan test topshirish mumkin?</h2>
+            <span className="text-white text-2xl">⌄</span>
+          </div>
+
+          <div className="bg-[#060B18] border border-[#1d293d] rounded-2xl flex justify-between items-center px-6 py-5 mb-5">
+            <h2 className="text-white text-2xl font-semibold">Natijalar qanchalik aniq?</h2>
+            <span className="text-white text-2xl">⌄</span>
+          </div>
+
+          <div className="bg-[#060B18] border border-[#1d293d] rounded-2xl flex justify-between items-center px-6 py-5 mb-5">
+            <h2 className="text-white text-2xl font-semibold">Bepul versiyada nimalar bor?</h2>
+            <span className="text-white text-2xl">⌄</span>
+          </div>
+
+          <div className="bg-[#060B18] border border-[#1d293d] rounded-2xl flex justify-between items-center px-6 py-5">
+            <h2 className="text-white text-2xl font-semibold">To'lov qanday amalga oshiriladi?</h2>
+            <span className="text-white text-2xl">⌄</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {/*Hero section-6 end*/}
+
     </>
   )
 }
