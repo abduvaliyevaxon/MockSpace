@@ -34,11 +34,11 @@ function App() {
 
           {/*O`ng tomon start*/}
           <div className="flex items-center gap-6">
-            <button className="text-gray-500 hover:text-white text-xl">uz</button>
+            <button className="text-gray-500 hover:text-white text-xl px-4 rounded-2xl hover:bg-[#994BE7] ">uz</button>
 
-            <button className="text-gray-500 hover:text-white">🌙</button>
+            <button className="text-gray-500 rounded-xl px-2 py-1 hover:bg-[#994BE7]">🌙</button>
 
-            <button className="px-5 py-2 rounded-full bg-[#1FB156] text-black  text-xl">Boshlash</button>
+            <button className="px-5 py-2 rounded-full bg-[#1FB156]  text-black  text-xl ">Boshlash</button>
           </div>
           {/*O`ng tomon end*/}
 
@@ -65,7 +65,7 @@ function App() {
 
           <p className='text-[#7F8EA3] text-2xl leading-11'>IELTS, CEFR va DTM fanlaridan <span className='text-[#22C55E]'>AI texnologiyasi</span> yordamida mock <br /> testlar yeching. Natijalaringiz <span className='text-[#994BE7]'>bir zumda</span> tayyor!</p> 
 
-          <button className='mt-10 px-8 py-2 bg-[#22C55E] rounded-full text-black text-xl '>Bepul boshlash →</button>
+          <button className='mt-10 px-8 py-2 bg-[#22C55E] hover:bg-[#32b763] rounded-full text-black text-xl '>Bepul boshlash →</button>
         </div>
       
       </div>
@@ -569,7 +569,7 @@ function App() {
           <h2 className="text-5xl font-bold text-white">Hoziroq <span className="text-[#22C55E]">boshlang!</span></h2>
           <p className="mt-5 text-[#758397] text-xl">MockSpace orqali imtihonlarga tayyorlaning. Siz ham qo'shiling!</p>
 
-          <button className="mt-10 bg-[#22C55E] text-black px-10 py-4 rounded-full text-xl font-semibold">Bepul ro'yxatdan o'tish →</button>
+          <button className="mt-10 bg-[#22C55E] hover:bg-[#277b46] text-black px-10 py-4 rounded-full text-xl font-semibold">Bepul ro'yxatdan o'tish →</button>
         </div>
 
       </div>
@@ -602,12 +602,12 @@ function App() {
             <div className="flex flex-col items-center">
               <h3 className="text-white text-2xl font-semibold leading-none">Sahifalar</h3>
 
-              <ul className="mt-8 leading-9 text-[#758397] text-xl">
-                <li>Imkoniyatlar</li>
-                <li>Fanlar</li>
-                <li>Tariflar</li>
-                <li>Jamoa</li>
-                <li>FAQ</li>
+              <ul className="mt-8 leading-9 text-[#758397] text-xl ">
+                <li className='text-[#758397] hover:text-white'>Imkoniyatlar</li>
+                <li className='text-[#758397] hover:text-white'>Fanlar</li>
+                <li className='text-[#758397] hover:text-white'>Tariflar</li>
+                <li className='text-[#758397] hover:text-white'>Jamoa</li>
+                <li className='text-[#758397] hover:text-white'>FAQ</li>
               </ul>
             </div>
 
@@ -616,10 +616,10 @@ function App() {
 
               <h3 className="text-white text-2xl font-semibold">Aloqa</h3>
 
-              <ul className="mt-8 space-y-5 text-xl leading-5">
-                <li className="text-[#758397]">@mehmonov_husniddin</li>
-                <li className="text-[#758397]">+998 94 444 43 52</li>
-                <li className="text-[#22C55E]">app.mockspace.uz</li>
+              <ul className="mt-8 space-y-5 text-xl leading-5 ">
+                <li className="text-[#758397] hover:text-[#22C55E]">@mehmonov_husniddin</li>
+                <li className="text-[#758397] hover:text-[#22C55E]">+998 94 444 43 52</li>
+                <li className="text-[#22C55E] hover:text-[#1a6033]">app.mockspace.uz</li>
               </ul>
             </div>
         </div>
@@ -628,8 +628,8 @@ function App() {
         <div className="mt-16 pt-8 border-t border-[#1d293d] flex justify-between items-center">
           <p className="text-[#758397] text-lg">© 2025 MockSpace. Barcha huquqlar himoyalangan.</p>
           <div className="flex gap-10 text-[#758397] text-lg">
-            <p>Maxfiylik siyosati</p>
-            <p>Foydalanish shartlari</p>
+            <p className='hover:text-white'>Maxfiylik siyosati</p>
+            <p className='hover:text-white'>Foydalanish shartlari</p>
           </div>
         </div>
       </div>
